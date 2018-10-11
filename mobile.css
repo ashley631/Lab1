@@ -1,0 +1,141 @@
+.pink {
+    background-color: rgba(247, 136, 167, 0.6);
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    position: absolute;
+    bottom: 10px; 
+    left: 600px;
+    top: 120px;
+}
+
+.orange {
+    background-color: rgba(247, 193, 162, 0.7);
+    height: 120px;
+    width: 120px;
+    border-radius: 200px;
+    position: absolute;
+    top: 150px;
+    bottom: 250px;
+    left: 750px;
+    
+}
+
+.purple {
+    background-color: rgba(207, 130, 213, 0.6);
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+body {
+    background-color: #f9fafc;
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p {
+    border-left: 5px solid grey;
+    font-size: 15px;
+    color: #69696a;
+    width: 500px;
+}
+
+a, h2 {
+    padding: 10px;
+    color: #69696a;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    flex-direction: row ;
+}
+
+.navbar { 
+    display: flex;
+    color: #69696a;
+    justify-content: space-between;
+    font-family: "Open Sans";
+    text-decoration: none;
+    flex-direction: row;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+html {
+    font-family: 'Open Sans', sans-serif;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    color: #69696a;
+
+}
+
+button {
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+}
+
+a,h2 {
+    color: #69696a;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+
+
+body {
+    background-color: #f9fafc;
+}
+
+.hireus {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.scroll {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    color: #69696a;
+    border-left: 5px solid grey;
+}
+
+.purple {
+    background-color: rgba(207, 130, 213, 0.6);
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    display: none;
+
+}
